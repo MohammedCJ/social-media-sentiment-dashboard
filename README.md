@@ -1,4 +1,4 @@
-# 📊 Social Media Sentiment Analysis Dashboard
+#Social Media Sentiment Analysis Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Framework-Streamlit-FF4B4B.svg)](https://streamlit.io/)
@@ -9,7 +9,7 @@ An interactive, data-driven Natural Language Processing (NLP) dashboard built to
 
 ---
 
-## 🚀 Key Features
+##Key Features
 
 * **Real-time Text Predictor:** Input any custom sentence or tweet to instantly compute its NLP sentiment polarity score.
 * **Granular Entity Filtering:** Dynamically filter and analyze tweets linked to major corporate and gaming brands (e.g., *Nvidia, Microsoft, Borderlands, Amazon*).
@@ -18,7 +18,7 @@ An interactive, data-driven Natural Language Processing (NLP) dashboard built to
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+##Architecture & Tech Stack
 
 The application leverages a modular "Local-First" architecture designed for high-throughput localized data analysis without heavy infrastructure overhead:
 
@@ -29,7 +29,7 @@ The application leverages a modular "Local-First" architecture designed for high
 
 ---
 
-## 📦 Local Setup & Execution
+##Local Setup & Execution
 
 ### Prerequisites
 Ensure you have Python 3.13+ installed on your system. 
@@ -48,7 +48,7 @@ Bash
 python3 -m streamlit run app.py
 Your terminal will initialize the engine and automatically launch a browser tab at http://localhost:8501.
 
-📊 Dataset Reference
+Dataset Reference
 The underlying unstructured data is sourced from the Twitter Sentiment Analysis dataset on Kaggle.
 
 Total Rows: ~74,682 instances
